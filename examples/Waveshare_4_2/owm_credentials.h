@@ -9,7 +9,7 @@ const char server[] = "api.openweathermap.org";
 //http://api.openweathermap.org/data/2.5/weather?q=Melksham,UK&APPID=your_OWM_API_key&mode=json&units=metric&cnt=1
 //Set your location according to OWM locations
 String City             = "Windsor, CO";                      // Your home city See: http://bulk.openweathermap.org/sample/
-String CityID			= "5583509"
+String CityID			      = "5583509";
 String Country          = "US";                            // Your _ISO-3166-1_two-letter_country_code country code, on OWM find your nearest city and the country code is displayed
                                                            // https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 String Language         = "EN";                            // NOTE: Only the weather description is translated by OWM
